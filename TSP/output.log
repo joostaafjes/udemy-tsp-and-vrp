@@ -1,0 +1,13 @@
+/Users/joost/.local/share/virtualenvs/vrp-2gjZFYz3/bin/python "/Users/joost/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-0/201.7223.92/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevconsole.py" --mode=client --port=53561
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['/Users/joost/Projects/udemy/vrp'])
+PyDev console: starting.
+Python 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)
+[Clang 6.0 (clang-600.0.57)] on darwin
+runfile('/Users/joost/Projects/udemy/vrp/TSP/TSP-using-SA.py', wdir='/Users/joost/Projects/udemy/vrp/TSP')
+Length_of_Travel: 381
+/Users/joost/Projects/udemy/vrp/TSP/TSP-using-SA.py:99: RuntimeWarning: overflow encountered in exp
+  form_1 = 1/(np.exp((Len_Xtemp-Len_X0)/T0)) # The formula to accept moves
+22.268654563000002
+Final Solution is:  ['D', 'A', 'G', 'B', 'F', 'E', 'C']
+Minimized Distance at Final Solution is (should be 158):  158

@@ -31,7 +31,7 @@ print("Length_of_Travel:",Length_of_Travel)
 
 T0 = 3000
 M = 1000
-N = 60 # 50 (50 original did not converge to optimal -> 60 does)
+N = 90 # 50 (50 original did not converge to optimal -> 65 does)
 Alpha = 0.85
 
 # For visualization
