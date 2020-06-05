@@ -3,9 +3,11 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import itertools as itr
 import scipy.spatial.distance as ssd
-import ObjectiveValue as OB
+import VRP.ObjectiveValue as OB
 
+from timeit import default_timer as timer
 
+start = timer()
 
 ### --> DYNAMIC TABU LIST WITH ASPIRATION BEST SO FAR and MULTI-RESTART WITH MUTATION <-- ###
 ### Returns back to the best-so-far after some iterations
@@ -440,6 +442,8 @@ Without_Penalty = Final_Solution[:,1:].tolist()
 
 Without_Penalty_Cost = OB.Complete_Distance_Not_Random(Without_Penalty[0])
 
+end = timer()
+print(end - start) # Time in seconds
 
 print()
 print()
